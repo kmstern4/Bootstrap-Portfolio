@@ -1,0 +1,98 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../Images/LineFlower-1.png);
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #9142a2;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-weight: bold;
+    border-bottom: solid 2px #d89cd7;
+}
+
+.navbar {
+    background: #f4f0f5;
+    border-bottom: solid 2px #d89cd7;
+}
+
+.navbar-brand {
+    background: #9142a2;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #f4f0f5;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #9142a2;
+}
+
+.navbar-light .navbar-brand {
+    color: #f4f0f5;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #9142a2;
+}
+
+.btn-primary {
+    background: #9142a2;
+    border-color: #9142a2;
+}
+
+.centered {
+    background: #9142a2;
+    width: 250px;
+    position: absolute;
+    top: 60%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #1e0a26;
+    color: #f4f0f5;
+    border-top: solid #9142a2 2px;
+    text-align: center;
+}
+
+#mainContainer {
+    border: solid 2px #d89cd7;
+    background: #f4f0f5;
+    color: #1e0a26;
+}
+
+#myPhoto {
+    max-width:100%;
+    height: auto;
+}
+
+#photoContainer {
+    position: relative;
+    text-align: center;
+    color: #f4f0f5;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 2px;
+    padding: 0px;
+}
+
+#placeholder {
+    position: absolute;
+    left: 0px;
+}
+
+@media(max-width: 768px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
